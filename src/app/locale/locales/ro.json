@@ -234,5 +234,25 @@
     "exTzGh": {
         "message": "Orizontal",
         "description": "Form field option, horizontal gradient"
+    },
+    "WxujbA": {
+        "message": "Spații de lucru",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Număr de file",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Fiecare filă este un ecran de start separat, cu propriile widgeturi și fundal. Cu o singură filă, comutatorul este ascuns.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Numele filei {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Reducerea numărului de file va șterge definitiv ultimele {count, plural, one {# filă} few {# file} other {# de file}} și widgeturile lor. Continuați?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

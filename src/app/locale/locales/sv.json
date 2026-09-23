@@ -1084,5 +1084,25 @@
     "pqIuCa": {
         "message": "Visa nuvarande väder",
         "description": "Weather widget: form field label"
+    },
+    "WxujbA": {
+        "message": "Arbetsytor",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Antal flikar",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Varje flik är en separat startsida med egna widgets och bakgrund. Med en flik döljs växlaren.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Namn på flik {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Om du minskar antalet flikar tas de sista {count, plural, one {# fliken} other {# flikarna}} och deras widgets bort permanent. Fortsätta?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

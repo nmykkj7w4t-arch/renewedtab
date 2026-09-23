@@ -1309,5 +1309,25 @@
     "ilIuh2": {
         "message": "Bunu yararlı buldunuz mu? <a>Bağış yaparak</a> hava durumu API'sının ücretlerini karşılamayı ve Renewed Tab'in geliştirilmesine katkı sağlamayı düşünebilirsiniz.",
         "description": "Weather widget: asking for donations"
+    },
+    "WxujbA": {
+        "message": "Çalışma alanları",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Sekme sayısı",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Her sekme, kendi widget'ları ve arka planı olan ayrı bir başlangıç ekranıdır. Tek sekmede geçiş çubuğu gizlenir.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Sekme {index} adı",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Sekme sayısını azaltmak, son {count, plural, one {# sekmeyi} other {# sekmeyi}} ve widget'larını kalıcı olarak siler. Devam edilsin mi?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

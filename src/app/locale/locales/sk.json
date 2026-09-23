@@ -149,5 +149,25 @@
     "5640CU": {
         "message": "Aktuálne: Zobraziť zrážky",
         "description": "Weather widget: form field label"
+    },
+    "WxujbA": {
+        "message": "Pracovné priestory",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Počet kariet",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Každá karta je samostatná úvodná obrazovka s vlastnými widgetmi a pozadím. Pri jednej karte je prepínač skrytý.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Názov karty {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Zníženie počtu kariet natrvalo odstráni posledné {count, plural, one {# kartu} few {# karty} many {# kariet} other {# kariet}} a ich widgety. Pokračovať?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

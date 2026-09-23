@@ -1098,5 +1098,25 @@
     "/Mx09O": {
         "message": "Експериментально. Не работаент со всеми источниками из-за пропущенной информации об изображениях. Изображения так же могут быть большими, и прогружаться долго.",
         "description": "Feed widget: form field hint (Show Images)"
+    },
+    "WxujbA": {
+        "message": "Рабочие пространства",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Количество вкладок",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Каждая вкладка — отдельный стартовый экран со своими виджетами и фоном. При одной вкладке переключатель скрыт.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Имя вкладки {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Уменьшение числа вкладок безвозвратно удалит последние {count, plural, one {# вкладку} few {# вкладки} many {# вкладок} other {# вкладки}} и их виджеты. Продолжить?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

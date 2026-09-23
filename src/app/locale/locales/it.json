@@ -1309,5 +1309,25 @@
     },
     "zXtUcf": {
         "message": "Non ti preoccupare, lo potrai sbloccare successivamente"
+    },
+    "WxujbA": {
+        "message": "Aree di lavoro",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Numero di schede",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Ogni scheda è una schermata iniziale separata con i propri widget e sfondo. Con una sola scheda, il selettore è nascosto.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nome della scheda {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Ridurre il numero di schede eliminerà definitivamente le ultime {count, plural, one {# scheda} other {# schede}} e i relativi widget. Continuare?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

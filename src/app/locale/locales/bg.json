@@ -1309,5 +1309,25 @@
     "ubO4zt": {
         "message": "Уеб комикс",
         "description": "Web Comic Widget"
+    },
+    "WxujbA": {
+        "message": "Работни пространства",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Брой раздели",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Всеки раздел е отделен начален екран със собствени уиджети и фон. При един раздел превключвателят е скрит.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Име на раздел {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Намаляването на броя раздели ще изтрие завинаги последните {count, plural, one {# раздел} other {# раздела}} и техните уиджети. Продължаване?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

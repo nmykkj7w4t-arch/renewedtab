@@ -299,5 +299,25 @@
     },
     "BJYZgx": {
         "message": "Χρησιμοποιήστε τη λαβή μετακίνησης (<move></move>) και τη λαβή αλλαγής μεγέθους (<resize></resize>)."
+    },
+    "WxujbA": {
+        "message": "Χώροι εργασίας",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Αριθμός καρτελών",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Κάθε καρτέλα είναι μια ξεχωριστή αρχική οθόνη με τα δικά της γραφικά στοιχεία και φόντο. Με μία καρτέλα, ο επιλογέας είναι κρυφός.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Όνομα καρτέλας {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Η μείωση του αριθμού καρτελών θα διαγράψει οριστικά τις τελευταίες {count, plural, one {# καρτέλα} other {# καρτέλες}} και τα γραφικά τους στοιχεία. Συνέχεια;",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

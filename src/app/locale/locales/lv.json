@@ -1,1 +1,22 @@
-{}
+{
+    "WxujbA": {
+        "message": "Darba vietas",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Ciļņu skaits",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Katra cilne ir atsevišķs sākuma ekrāns ar saviem logrīkiem un fonu. Ar vienu cilni pārslēdzējs ir paslēpts.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Ciļņas {index} nosaukums",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Samazinot ciļņu skaitu, tiks neatgriezeniski dzēstas pēdējās {count, plural, zero {# ciļņu} one {# cilne} other {# ciļnes}} un to logrīki. Turpināt?",
+        "description": "Workspace settings: confirm reducing tabs"
+    }
+}

@@ -1310,9 +1310,6 @@
         "message": "Для асноўных кнопак і спасылак",
         "description": "Theme settings: form field hint (Primary Color)"
     },
-    "1Ms/OE": {
-        "message": "Наколькі cкругленымі павінны быць вуглы большай колькасці рэчаў? Ад 0% да 300%"
-    },
     "1hvL/q": {
         "message": "Увайсці ў рэжым рэдагавання"
     },
@@ -1324,9 +1321,6 @@
     },
     "4fHiNl": {
         "message": "Дубліраваць"
-    },
-    "6mQdhI": {
-        "message": "Наколькі скругленымі павінны быць вуглы панэлей (напрыклад віджэтаў)? Ад 0% да 1000%"
     },
     "H/r5m6": {
         "message": "На задні план"
@@ -1340,13 +1334,30 @@
     "bhFF6J": {
         "message": "Кэш"
     },
-    "iyOvAb": {
-        "message": "Радыус краёў панэляў"
-    },
     "nF+GWk": {
         "message": "JavaScript не падтрымліваецца з прычыны бяспекі. Замест гэтага скарыстайцеся віджэтам iFrame"
     },
     "nHcPTf": {
         "message": "Увага: спасылкі, узятыя з вонкавых рэсурсаў могуць утрымліваць партнёрскія коды. Каб забяспечыць прыватнасць, замяніце гэтыя спасылкі на прамыя."
+    },
+    "WxujbA": {
+        "message": "Працоўныя прасторы",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Колькасць укладак",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Кожная ўкладка — асобны стартавы экран са сваімі віджэтамі і фонам. Пры адной ўкладцы пераключальнік схаваны.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Назва ўкладкі {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Змяншэнне колькасці ўкладак незваротна выдаліць апошнія {count, plural, one {# ўкладку} few {# ўкладкі} many {# укладак} other {# ўкладкі}} і іх віджэты. Працягнуць?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

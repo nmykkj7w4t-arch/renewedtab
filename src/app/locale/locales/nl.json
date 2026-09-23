@@ -1041,12 +1041,6 @@
     "3lHnZE": {
         "message": "Maak de cache leeg en herlaad"
     },
-    "6mQdhI": {
-        "message": "Hoe rond zou de randen van panelen zijn? Van 0 tot 1000%"
-    },
-    "1Ms/OE": {
-        "message": "Hoe rond moetEN de randen van de meeste dingen zijn? Van 0 tot 300%"
-    },
     "1hvL/q": {
         "message": "Naar de bewerkingsmodus gaan"
     },
@@ -1068,9 +1062,6 @@
     "bhFF6J": {
         "message": "Cache"
     },
-    "iyOvAb": {
-        "message": "Paneelrand radius"
-    },
     "nF+GWk": {
         "message": "JavaScript is niet ondersteund om veiligheidsredenen. Gebruik in plaats daarvan de iFrame Widget"
     },
@@ -1083,10 +1074,27 @@
     "rbrahO": {
         "message": "Sluiten"
     },
-    "u9iVp5": {
-        "message": "Paneelrand radius"
-    },
     "wmFdws": {
         "message": "Omhoog"
+    },
+    "WxujbA": {
+        "message": "Werkruimten",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Aantal tabbladen",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Elk tabblad is een apart startscherm met eigen widgets en achtergrond. Bij één tabblad is de schakelaar verborgen.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Naam van tabblad {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Als u het aantal tabbladen verlaagt, worden de laatste {count, plural, one {# tabblad} other {# tabbladen}} en hun widgets permanent verwijderd. Doorgaan?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

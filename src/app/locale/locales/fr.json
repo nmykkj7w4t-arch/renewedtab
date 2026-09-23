@@ -1309,5 +1309,25 @@
     "ilIuh2": {
         "message": "Vous trouvez ceci utile ? Pensez à <a>faire un don</a> pour couvrir les frais de l'API de météo, et soutenir le développement futur de Renewed Tab.",
         "description": "Weather widget: asking for donations"
+    },
+    "WxujbA": {
+        "message": "Espaces de travail",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Nombre d'onglets",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Chaque onglet est un écran d'accueil distinct avec ses propres widgets et son propre arrière-plan. Avec un seul onglet, le sélecteur est masqué.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nom de l'onglet {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Réduire le nombre d'onglets supprimera définitivement les {count, plural, one {# dernier onglet} other {# derniers onglets}} et leurs widgets. Continuer ?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

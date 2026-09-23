@@ -1086,5 +1086,49 @@
     "+g7L/A": {
         "message": "Zeigt Atom, JSONFeed und RSS Feeds an - nützlich um Nachrichten, Webseiten oder Blogs zu folgen",
         "description": "Feed widget description"
+    },
+    "WxujbA": {
+        "message": "Arbeitsbereiche",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Anzahl der Tabs",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Jeder Tab ist ein eigener Startbildschirm mit eigenen Widgets und eigenem Hintergrund. Bei einem Tab wird der Umschalter ausgeblendet.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Name von Tab {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Wenn Sie die Anzahl der Tabs verringern, werden die letzten {count, plural, one {# Tab} other {# Tabs}} und deren Widgets dauerhaft gelöscht. Fortfahren?",
+        "description": "Workspace settings: confirm reducing tabs"
+    },
+    "5GxdmC": {
+        "message": "Standard",
+        "description": "Default name for the first workspace tab"
+    },
+    "FF3bsM": {
+        "message": "Tab {index}",
+        "description": "Default name for a newly created workspace tab"
+    },
+    "zNAuI7": {
+        "message": "Tab löschen",
+        "description": "Workspace settings: delete tab button title"
+    },
+    "aQ3PLG": {
+        "message": "Tab „{name}“ löschen? Die Widgets werden dauerhaft entfernt.",
+        "description": "Workspace settings: confirm deleting a single tab"
+    },
+    "9YA78G": {
+        "message": "Wenn aktiviert, bleibt der Tab-Umschalter nahezu unsichtbar, bis die Maus darüber fährt.",
+        "description": "Workspace settings: mouseover reveal hint"
+    },
+    "b/Ebqt": {
+        "message": "Tabs bei Mouseover anzeigen",
+        "description": "Workspace settings: mouseover reveal checkbox"
     }
 }

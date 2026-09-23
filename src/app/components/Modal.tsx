@@ -9,6 +9,7 @@ export interface ModalProps {
 	onClose?: () => void;
 	children: ReactNode[] | ReactNode;
 	lighterBg?: boolean;
+	noBlur?: boolean;
 	wide?: boolean;
 	tall?: boolean;
 }
@@ -55,7 +56,8 @@ export default function Modal(props: ModalProps) {
 	const modalTitleId = useMemo(() => `modal-title-${uuid()}`, []);
 
 	const bgClasses = mergeClasses("modal-bg",
-		props.lighterBg && "modal-bg-lighter");
+		props.lighterBg && "modal-bg-lighter",
+		props.noBlur && "modal-bg-no-blur");
 
 	return ReactDOM.createPortal((
 		<aside className={bgClasses} onMouseDown={handleMouseDown}

@@ -822,5 +822,25 @@
     },
     "XrQEPN": {
         "message": "Lokalizacja"
+    },
+    "WxujbA": {
+        "message": "Przestrzenie robocze",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Liczba kart",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Każda karta to osobny ekran startowy z własnymi widżetami i tłem. Przy jednej karcie przełącznik jest ukryty.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nazwa karty {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Zmniejszenie liczby kart trwale usunie ostatnie {count, plural, one {# kartę} few {# karty} many {# kart} other {# karty}} i ich widżety. Kontynuować?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

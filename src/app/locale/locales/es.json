@@ -1287,5 +1287,25 @@
     },
     "lQIN1l": {
         "message": "¿Te está gustando Renewed Tab? ¡Danos un review!"
+    },
+    "WxujbA": {
+        "message": "Espacios de trabajo",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Número de pestañas",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Cada pestaña es una pantalla de inicio independiente con sus propios widgets y fondo. Con una sola pestaña, el selector permanece oculto.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nombre de la pestaña {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Reducir el número de pestañas eliminará permanentemente las últimas {count, plural, one {# pestaña} other {# pestañas}} y sus widgets. ¿Continuar?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

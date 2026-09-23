@@ -420,5 +420,25 @@
     "appName": {
         "message": "Renewed Tab",
         "description": "The name of the app"
+    },
+    "WxujbA": {
+        "message": "Ish maydonlari",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Varaqlar soni",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Har bir varaq o‘z vidjetlari va foniga ega alohida boshlang‘ich ekrandir. Bitta varaqda almashtirgich yashirinadi.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "{index}-varaq nomi",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Varaqlar sonini kamaytirish oxirgi {count, plural, one {# varaqni} other {# varaqni}} va ularning vidjetlarini butunlay o‘chiradi. Davom etilsinmi?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

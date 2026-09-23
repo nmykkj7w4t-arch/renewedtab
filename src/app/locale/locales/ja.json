@@ -1310,9 +1310,6 @@
         "message": "コレクションID。URL内に含まれています。例: 42576559",
         "description": "Backgroud settings: form field hint (Unsplash Collection)"
     },
-    "1Ms/OE": {
-        "message": "ほぼすべての要素の角丸の大きさを指定します。0~300%の間で指定"
-    },
     "1hvL/q": {
         "message": "編集モードに入る"
     },
@@ -1324,5 +1321,25 @@
     },
     "4fHiNl": {
         "message": "複製"
+    },
+    "WxujbA": {
+        "message": "ワークスペース",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "タブの数",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "各タブは、独自のウィジェットと背景を持つ別のスタート画面です。タブが1つの場合、切り替えバーは非表示になります。",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "タブ {index} の名前",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "タブ数を減らすと、末尾の {count, plural, other {# 個のタブ}} とそのウィジェットが完全に削除されます。続行しますか？",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

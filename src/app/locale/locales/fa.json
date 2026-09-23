@@ -242,5 +242,25 @@
     "BnmONl": {
         "message": "فعلی: نمایش طلوع / غروب خورشید",
         "description": "Weather widget: form field label"
+    },
+    "WxujbA": {
+        "message": "فضاهای کاری",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "تعداد زبانه‌ها",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "هر زبانه یک صفحه شروع جداگانه با ویجت‌ها و پس‌زمینه خودش است. با یک زبانه، تعویض‌کننده پنهان می‌شود.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "نام زبانه {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "کاهش تعداد زبانه‌ها، آخرین {count, plural, one {# زبانه} other {# زبانه}} و ویجت‌هایشان را برای همیشه حذف می‌کند. ادامه؟",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

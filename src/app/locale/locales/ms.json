@@ -1316,9 +1316,6 @@
     "2YhLSH": {
         "message": "Widget {name}"
     },
-    "1Ms/OE": {
-        "message": "Berapa bulatkah bucu yang patut bagi kebanyakan benda? Antara 0% dan 300%"
-    },
     "3lHnZE": {
         "message": "Kosongkan cache dan muatkan semula"
     },
@@ -1330,9 +1327,6 @@
     },
     "bhFF6J": {
         "message": "Cache"
-    },
-    "iyOvAb": {
-        "message": "Jejari Bucu Panel"
     },
     "nHcPTf": {
         "message": "Amaran: Pautan yang diimport dari sumber luaran mungkin mempunyai pautan gabungan. Untuk memastikan privasi terjaga, anda patut menggantikannya dengan pautan terus."
@@ -1346,9 +1340,6 @@
     "rbrahO": {
         "message": "Tutup"
     },
-    "u9iVp5": {
-        "message": "Jejari Bucu"
-    },
     "wmFdws": {
         "message": "Pindah ke atas"
     },
@@ -1358,7 +1349,24 @@
     "LaT9nn": {
         "message": "<a>Ikon-ikon cuaca</a> berhak cipta KDE dan dilesenkan di bawah GNU LGPL v3 atau yang terkemudian"
     },
-    "6mQdhI": {
-        "message": "Berapa bulatkah bucu yang patut bagi panel (spt: widget)? Antara 0% dan 1000%"
+    "WxujbA": {
+        "message": "Ruang kerja",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Bilangan tab",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Setiap tab ialah skrin mula berasingan dengan widget dan latarbelakang sendiri. Dengan satu tab, penukar disembunyikan.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nama tab {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Mengurangkan bilangan tab akan memadamkan {count, plural, one {# tab} other {# tab}} terakhir dan widget mereka secara kekal. Teruskan?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

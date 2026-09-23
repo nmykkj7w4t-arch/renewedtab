@@ -1309,5 +1309,25 @@
     },
     "zWgbGg": {
         "message": "Hoje"
+    },
+    "WxujbA": {
+        "message": "Espaços de trabalho",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Número de abas",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Cada aba é uma tela inicial separada com seus próprios widgets e plano de fundo. Com uma aba, o seletor fica oculto.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nome da aba {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Reduzir o número de abas excluirá permanentemente as últimas {count, plural, one {# aba} other {# abas}} e seus widgets. Continuar?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

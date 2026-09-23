@@ -7,10 +7,12 @@ import { defineMessages, FormattedMessage, useIntl } from "react-intl";
 import { ThemeSettings, ThemeSettingsProps } from "./ThemeSettings";
 import GeneralSettings, { GeneralSettingsProps } from "./GeneralSettings";
 import GridSettings, { GridSettingsProps } from "./GridSettings";
+import WorkspaceSettings, { WorkspaceSettingsProps } from "./WorkspaceSettings";
 
 
 export enum SettingsTab {
 	General,
+	Workspaces,
 	Grid,
 	Background,
 	Theme,
@@ -20,6 +22,7 @@ export enum SettingsTab {
 
 export const TabIcons: {[index: string]:any} = {
 	"General": "gear",
+	"Workspaces": "columns",
 	"Grid": "grip",
 	"Background": "image",
 	"Theme": "paint-brush",
@@ -32,6 +35,11 @@ declare type SettingsTabType = keyof typeof SettingsTab;
 export const tabTitles = defineMessages({
 	[SettingsTab.General]: {
 		defaultMessage: "General",
+		description: "Settings tab",
+	},
+
+	[SettingsTab.Workspaces]: {
+		defaultMessage: "Workspaces",
 		description: "Settings tab",
 	},
 
@@ -66,6 +74,8 @@ function getComponentForTab(tab: SettingsTab) {
 	switch (tab) {
 	case SettingsTab.General:
 		return GeneralSettings;
+	case SettingsTab.Workspaces:
+		return WorkspaceSettings;
 	case SettingsTab.Grid:
 		return GridSettings;
 	case SettingsTab.Background:
@@ -81,7 +91,8 @@ function getComponentForTab(tab: SettingsTab) {
 
 
 interface SettingsDialogProps extends BackgroundSettingsProps,
-		ThemeSettingsProps, GeneralSettingsProps, GridSettingsProps {
+		ThemeSettingsProps, GeneralSettingsProps, GridSettingsProps,
+		WorkspaceSettingsProps {
 	isOpen: boolean;
 	onClose: () => void;
 }
@@ -112,7 +123,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
 
 	return (
 		<Modal title={intl.formatMessage({ defaultMessage: "Settings "})}
-				wide={true} {...props}>
+				wide={true} noBlur={true} onClose={props.onClose}>
 			<div className="modal-flex">
 				<nav role="tablist">
 					{tabs}

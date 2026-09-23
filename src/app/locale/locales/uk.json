@@ -137,5 +137,25 @@
     "oDog89": {
         "message": "Текстова область для нотаток, яку можна редагувати",
         "description": "Notes widget description"
+    },
+    "WxujbA": {
+        "message": "Робочі простори",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Кількість вкладок",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Кожна вкладка — окремий стартовий екран зі своїми віджетами та фоном. За однієї вкладки перемикач приховано.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Назва вкладки {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Зменшення кількості вкладок остаточно видалить останні {count, plural, one {# вкладку} few {# вкладки} many {# вкладок} other {# вкладки}} та їхні віджети. Продовжити?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

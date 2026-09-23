@@ -1,1 +1,46 @@
-{}
+{
+    "WxujbA": {
+        "message": "Workspaces",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Number of tabs",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Each tab is a separate start screen with its own widgets and background. With one tab, the switcher is hidden.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Tab {index} name",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Reducing the number of tabs will permanently delete the last {count, plural, one {# tab} other {# tabs}} and their widgets. Continue?",
+        "description": "Workspace settings: confirm reducing tabs"
+    },
+    "5GxdmC": {
+        "message": "Default",
+        "description": "Default name for the first workspace tab"
+    },
+    "FF3bsM": {
+        "message": "Tab {index}",
+        "description": "Default name for a newly created workspace tab"
+    },
+    "zNAuI7": {
+        "description": "Workspace settings: delete tab button title",
+        "message": "Delete tab"
+    },
+    "aQ3PLG": {
+        "description": "Workspace settings: confirm deleting a single tab",
+        "message": "Delete tab “{name}”? Its widgets will be permanently removed."
+    },
+    "9YA78G": {
+        "description": "Workspace settings: mouseover reveal hint",
+        "message": "When enabled, the tab switcher stays nearly invisible until you move the mouse over it."
+    },
+    "b/Ebqt": {
+        "description": "Workspace settings: mouseover reveal checkbox",
+        "message": "Show tabs on mouseover"
+    }
+}

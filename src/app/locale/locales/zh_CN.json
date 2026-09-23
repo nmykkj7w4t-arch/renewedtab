@@ -1319,26 +1319,14 @@
     "aO/LJo": {
         "message": "基于 GPS 位置搜索"
     },
-    "iyOvAb": {
-        "message": "面板圆角半径"
-    },
     "3lHnZE": {
         "message": "清除缓存并重新加载"
-    },
-    "u9iVp5": {
-        "message": "圆角半径"
-    },
-    "1Ms/OE": {
-        "message": "大部分元素边框圆角的半径，范围从 0% 到 300%"
     },
     "1hvL/q": {
         "message": "进入编辑模式"
     },
     "2YhLSH": {
         "message": "小部件 {name}"
-    },
-    "6mQdhI": {
-        "message": "面板 (例如小部件) 边框圆角的半径，范围从 0% 到 1000%"
     },
     "4fHiNl": {
         "message": "复制"
@@ -1360,5 +1348,25 @@
     },
     "q3GXOR": {
         "message": "<b>实验性的小部件</b>：可能会导致问题，并且可能导致页面无响应。"
+    },
+    "WxujbA": {
+        "message": "工作区",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "标签页数量",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "每个标签页都是独立的起始页，拥有自己的小部件和背景。只有一个标签页时，切换栏会隐藏。",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "标签页 {index} 名称",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "减少标签页数量将永久删除最后 {count, plural, other {# 个标签页}} 及其小部件。是否继续？",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

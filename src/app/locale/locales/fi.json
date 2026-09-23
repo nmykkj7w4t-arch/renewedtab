@@ -235,5 +235,25 @@
     "Ay1sfO": {
         "message": "Määrittää, kuinka monesta uusimmasta kuvasta valitaan satunnaisesti. Jos asetat tämän arvoon 1, valitaan aina uusin kuva",
         "description": "Feed background mode: form field hint (Limit images)"
+    },
+    "WxujbA": {
+        "message": "Työtilat",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Välilehtien määrä",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Jokainen välilehti on erillinen aloitussivu omilla widgeteillään ja taustallaan. Yhdellä välilehdellä vaihtaja on piilotettu.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Välilehden {index} nimi",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Välilehtien määrän vähentäminen poistaa pysyvästi viimeiset {count, plural, one {# välilehden} other {# välilehteä}} ja niiden widgetit. Jatka?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

@@ -1309,5 +1309,25 @@
     "xR87uK": {
         "message": "Atstumas tarp valdiklių taškais.",
         "description": "Widget grid: form hint for grid spacing"
+    },
+    "WxujbA": {
+        "message": "Darbo sritys",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Skirtukų skaičius",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Kiekvienas skirtukas – atskiras pradžios ekranas su savais valdikliais ir fonu. Su vienu skirtuku perjungiklis nerodomas.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Skirtuko {index} pavadinimas",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Sumažinus skirtukų skaičių, bus visam laikui ištrinti paskutiniai {count, plural, one {# skirtukas} few {# skirtukai} many {# skirtukų} other {# skirtukų}} ir jų valdikliai. Tęsti?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

@@ -595,5 +595,25 @@
     "appName": {
         "message": "Renewed Tab",
         "description": "The name of the app"
+    },
+    "WxujbA": {
+        "message": "Ruang kerja",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Jumlah tab",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Setiap tab adalah layar awal terpisah dengan widget dan latar belakangnya sendiri. Dengan satu tab, sakelar disembunyikan.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Nama tab {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Mengurangi jumlah tab akan menghapus secara permanen {count, plural, other {# tab}} terakhir beserta widgetnya. Lanjutkan?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }

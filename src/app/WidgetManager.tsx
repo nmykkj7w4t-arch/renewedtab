@@ -13,16 +13,21 @@ export class WidgetManager {
 
 	widgets: (Widget<unknown>)[] = [];
 
+	/**
+	 * When set, save() persists through this callback instead of the
+	 * legacy "widgets" storage key (used by WorkspaceManager).
+	 */
+	onSave?: (widgets: Widget<unknown>[]) => void;
+
 	constructor(private storage: IStorage) {}
 
 	async load() {
 		const json = await this.storage.get<Widget<unknown>[]>("widgets");
-		if (!json) {
-			this.widgets = [];
-			return;
-		}
+		await this.loadFrom(json ?? []);
+	}
 
-		this.widgets = json.filter((widget: Widget<unknown>) => WidgetTypes[widget.type]);
+	async loadFrom(widgets: Widget<unknown>[]) {
+		this.widgets = widgets.filter((widget: Widget<unknown>) => WidgetTypes[widget.type]);
 		this.id_counter =
 			this.widgets.reduce((max, widget) => Math.max(widget.id, max), 0);
 
@@ -50,6 +55,10 @@ export class WidgetManager {
 	}
 
 	save() {
+		if (this.onSave) {
+			this.onSave(this.widgets);
+			return;
+		}
 		this.storage.set("widgets", this.widgets);
 	}
 

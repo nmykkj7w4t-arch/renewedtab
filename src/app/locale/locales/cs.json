@@ -30,5 +30,25 @@
     "+g7L/A": {
         "message": "Zobrazuje zdroje Atom, JSONFeed a RSS – užitečné pro sledování zpráv, webů a blogů",
         "description": "Feed widget description"
+    },
+    "WxujbA": {
+        "message": "Pracovní prostory",
+        "description": "Settings tab"
+    },
+    "meSeMf": {
+        "message": "Počet karet",
+        "description": "Workspace settings: tab count"
+    },
+    "hpNqyZ": {
+        "message": "Každá karta je samostatná úvodní obrazovka s vlastními widgety a pozadím. Při jedné kartě je přepínač skrytý.",
+        "description": "Workspace settings: tab count hint"
+    },
+    "gRJSre": {
+        "message": "Název karty {index}",
+        "description": "Workspace settings: tab name label"
+    },
+    "aWs5zd": {
+        "message": "Snížení počtu karet trvale smaže poslední {count, plural, one {# kartu} few {# karty} many {# karet} other {# karet}} a jejich widgety. Pokračovat?",
+        "description": "Workspace settings: confirm reducing tabs"
     }
 }
