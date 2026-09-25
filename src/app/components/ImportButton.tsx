@@ -62,13 +62,17 @@ async function handleImportInfinity(intl: IntlShape, widgetManager: WidgetManage
 async function handleImport(_intl: IntlShape, _widgetManager: WidgetManager, file: File) {
 	const text = new TextDecoder("utf-8").decode(await file.arrayBuffer());
 	const json = JSON.parse(text);
-	// if (file.name.endsWith(".infinity")) {
-	// 	await handleImportInfinity(intl, widgetManager, json);
-	// } else {
+
+	// Original Renewed Tab exports store widgets/background/grid_settings.
+	// If this fork already created a `workspaces` key on first launch, that would
+	// shadow the imported legacy data — remove it so migration can run on reload.
+	if (json.widgets != null && json.workspaces == null) {
+		await storage.remove("workspaces");
+	}
+
 	for (const [key, value] of Object.entries(json)) {
 		await storage.set(key, value);
 	}
-	// }
 
 	location.reload();
 }
